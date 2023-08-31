@@ -1,0 +1,62 @@
+.parent{
+    width:50%;
+    height:fit-content;
+    margin:2% auto;
+    border:2px solid black;
+    padding:5px;
+}
+.parent h2{
+    text-align: center;
+    border-bottom:2px double #494850;
+    color:#292727;
+    font-size: 1.6em;
+    padding:10px 0px;
+    text-transform: uppercase;
+}
+.display{
+    width:100%;
+    height:100px;
+    /* background-color: azure; */
+    display: grid;
+    place-items: center;
+    font-size:2.5em;
+}
+.buttons{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+}
+.buttons button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    font-size:1.4em;
+    font-weight:bolder;
+    border:2px solid #494850;
+}
+.grid-box{
+    width:90%;
+    height:40vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    grid-template-rows:100%;
+    background-color: #494850;
+    gap:10px;
+    padding:2%;
+}
+.box{
+    background-color: #FFB800;
+    color:#2C2C34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 2em;
+    
+}
+.box-3{
+    font-size:1.5em;
+}
